@@ -1,6 +1,6 @@
 body {
     background: #000000;
-    color: #999;
+    color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -215,10 +215,6 @@ h5 {
 /* end home */
 
 /* start work */
-#work {
-    background: #000000;
-}
-
 #work h2 {
     text-align: center;
 }
@@ -290,7 +286,6 @@ h5 {
 
 /* start education */
 #education {
-    background: #000000;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 120px;
@@ -333,7 +328,6 @@ h5 {
 
 /* start portfolio */
 #portfolio {
-    background: #000000;
     text-align: center;
 }
 
@@ -395,7 +389,7 @@ h5 {
 
 #contact .form-control {
     background: transparent;
-    border: 2px solid #999;
+    border: 2px solid #ffffff;
     border-radius: 0;
     box-shadow: none;
     color: #ffffff;
