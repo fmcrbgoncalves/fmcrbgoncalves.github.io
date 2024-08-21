@@ -19,9 +19,11 @@ body {
 #about .fp-slide,
 #about .fp-tableCell,
 
+/*
 #contact,
 #contact .fp-slide,
 #contact .fp-tableCell,
+*/
 
 #education,
 #education .fp-slide,
@@ -52,10 +54,20 @@ h5 {
 /* end all heading */
 
 /* start all section */
+/*
 #work,
 #about,
+#education,
 #portfolio,
 #contact {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+*/
+#work,
+#about,
+#education,
+#portfolio {
     padding-top: 100px;
     padding-bottom: 120px;
 }
@@ -443,7 +455,7 @@ footer hr {
 
 .social-icon li a {
     border-radius: 50%;
-    color: #606060;
+    color: #000000;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     text-align: center;
